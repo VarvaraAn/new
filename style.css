@@ -2,17 +2,18 @@ body{
  margin:0;
 }
 .main-header{
-background-color: antiquewhite;  
-height:400px;      
+height:400px;    
+background:antiquewhite url("../img/bg2.jpg") 100% no-repeat;
+background-size:cover;
+
 }
 h1{
 font-size: 30px;
 color:rgb(196, 25, 20);
 text-decoration: underline;
-padding-left: 20px;
-padding-top:25px;
-
-display: inline;
+/* padding-left: 20px;
+padding-top:25px; */
+/* display: inline; */
 }
 .content1{
  
@@ -35,6 +36,10 @@ margin:5px 50px;
 }
 .main-menu{
 height: 200px;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+
 }
 .main-menu a{
 text-decoration: none;
@@ -44,7 +49,7 @@ height: 50px;
 width: 80px;
 text-align: center;
 margin: 5px 10px;
-border:1px solid grey;
+/* border:1px solid grey; */
 padding-top:20px;
 }
 .autorization{
@@ -72,8 +77,8 @@ margin-left: 20px;
 .box-one{
  width:600px;
  height:600px;
- background-color: darkgrey;   
  margin: 25px;
+ background: darkgrey url("../img/bg3.jpg") no-repeat;
 }
 .box-two{
     width:600px;
