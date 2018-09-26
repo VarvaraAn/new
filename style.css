@@ -1,163 +1,260 @@
 body{
- margin:0;
-}
-.main-header{
-height:400px;    
-background:antiquewhite url("../img/bg2.jpg") 100% no-repeat;
-background-size:cover;
-
-}
-h1{
-font-size: 30px;
-color:rgb(196, 25, 20);
-text-decoration: underline;
-/* padding-left: 20px;
-padding-top:25px; */
-/* display: inline; */
-}
-.content1{
- 
-display: flex;   
-justify-content: space-around;
-flex-wrap: wrap;
-align-items: center;
-}
-.footer{
- background-color: darkkhaki;   
-}
-.main-menu ul{
-display: flex;
-justify-content:flex-end; 
-flex-direction: row;  
-flex-wrap: wrap; 
-align-content: center;
-list-style: none;
-margin:5px 50px;
-}
-.main-menu{
-height: 200px;
-display: flex;
-justify-content: space-around;
-flex-wrap: wrap;
-
-}
-.main-menu a{
-text-decoration: none;
-color:rgb(196, 25, 20);
-display: block;
-height: 50px;
-width: 80px;
-text-align: center;
-margin: 5px 10px;
-/* border:1px solid grey; */
-padding-top:20px;
-}
-.autorization{
-    width:15px;
-    height:15px;
-    border:2px solid black;
-    display:inline-block;
-    position:absolute;
-    right:25px;
-    top:15px;
-}
-.basket{
-    width:15px;
-    height:15px;
-    border:2px solid black;
-    display: inline-block;
-    position: absolute;
-    right:5px;
-    top:15px;
-}
-h3{
-color:rgb(196, 25, 20);
-margin-left: 20px;    
-}
-.box-one{
- width:600px;
- height:600px;
- margin: 25px;
- background: darkgrey url("../img/bg3.jpg") no-repeat;
-}
-.box-two{
-    width:600px;
-    height:600px;  
-    background-color: blanchedalmond; 
-    margin: 25px;
+    margin:0;
+    padding: 0;
    }
-.box-three{
-    width:550px;
-    height:600px;   
-    background-color: dimgray;
-    margin: 25px
-   }   
-.box-four{
-    width:650px;
-    height:600px;
-    background-color: rgb(166, 192, 166);  
-    margin: 25px;
-   }  
-.col-fed{
-   background-color: darkkhaki;
-   height: 500px; 
-   background-image:url("img/bg.jpg");
-}   
-.block-video{
- background-color: lightcoral;
- height: 500px;   
-}
-.bottom-about{
- display: flex;
- justify-content: space-around;
-flex-wrap: wrap;
-align-items: center;   
-}
-.about{
-width:600px;
-height: 600px;  
-background-color: greenyellow;
-margin: 25px;  
-}
-.video-about{
-    width:600px;
-    height: 600px;  
-    background-color: rgb(47, 255, 134);
-    margin: 25px;     
-}
-.footer{
-background-color: rgb(255, 249, 170);
-display: flex;
-justify-content: space-around;
-flex-wrap: wrap;
-}
-.col-footer{
- margin: 5px; 
- color:rgb(196, 25, 20); 
-}
-.vk, .ins, .fb{
- display: inline-block;  
- margin:5px; }
-
- .social a{
-text-decoration: none;
-color:rgb(196, 25, 20);
- }
-
-.menu-bottom ul{
-    display: flex;
-    justify-content:flex-end; 
-    flex-direction: row;  
-    flex-wrap: wrap; 
-    align-content: center;
-    list-style: none; 
-}
-.menu-bottom a{
-    text-decoration: none;
-    color:rgb(196, 25, 20);
-    display: block;
-    height: 50px;
-    width: 80px;
+   .main-header{
+   height:400px;    
+   background:antiquewhite url("../img/bg4.jpg") 100% no-repeat;
+   background-size:cover;
+   
+   }
+   h1{
+   font-size: 30px;
+   color:rgb(196, 25, 20);
+   text-decoration: underline;
+   }
+   .main-menu ul{
+       display: flex;
+       justify-content:flex-end; 
+       flex-direction: row;  
+       flex-wrap: wrap; 
+       align-content: center;
+       list-style: none;
+       margin:5px 50px;
+       }
+       .main-menu{
+       height: 200px;
+       display: flex;
+       justify-content: space-around;
+       flex-wrap: wrap;
+       
+       }
+       .main-menu a{
+       text-decoration: none;
+       color:rgb(196, 25, 20);
+       display: block;
+       height: 50px;
+       width: 80px;
+       text-align: center;
+       margin: 5px 10px;
+       /* border:1px solid grey; */
+       padding-top:20px;
+       }
+       .autorization{
+           width:15px;
+           height:15px;
+           border:2px solid black;
+           display:inline-block;
+           position:absolute;
+           right:25px;
+           top:15px;
+       }
+       .basket{
+           width:15px;
+           height:15px;
+           border:2px solid black;
+           display: inline-block;
+           position: absolute;
+           right:5px;
+           top:15px;
+       }
+   .logo{
+       display:flex;
+       justify-content:center ;
+       flex-wrap:   wrap;   
+       } 
+   h2{
+    color: rgb(196, 25, 20);
+    font-size:  23px;
     text-align: center;
-    margin: 5px 10px;
+   }
+   .content1{
+    display: flex;   
+   justify-content: space-around;
+   flex-wrap: wrap;
+   align-items: center;
+   }
+   .content2{
+       display: flex;   
+       justify-content: space-around;
+       flex-wrap: wrap;
+       align-items: center;
+   }
+   .popular{
+       font-size: 20px;
+       color:rgb(196, 25, 20);
+       margin-left:20px;
+       font-weight: bold;
+   }
+   .footer{
+    background-color: darkkhaki;   
+   }
+   
+   h3{
+   color:rgb(196, 25, 20);
+   margin-left: 20px;    
+   }
+   .box-one{
+    width:600px;
+    height:600px;
+    margin: 25px;
+    background: darkgrey no-repeat;
+   }
+   .box-two{
+       width:600px;
+       height:600px;  
+       background-color: blanchedalmond; 
+       margin: 25px;
+       display: flex;
+       flex-wrap: wrap;
+      justify-content: space-between;
+      }
+      .bl-one{
+          width: 40%;
+          height: 40%;
+      background-color: lightgreen; 
+       margin:25px 20px;  
+      }
+      .bl-two{
+       width:40%;
+       height:40%;
+       background-color: rgb(144, 196, 238);
+       margin:25px 20px;  
+      }
+      .bl-three{
+       width:40%;
+       height:40%;
+       background-color: rgb(194, 219, 51);
+       margin:25px 20px;   
+      }
+      .bl-four{
+       width:40%;
+       height:40%;
+       background-color: rgb(219, 139, 73);
+       margin: 25px 20px;   
+      }
+   .box-three{
+       width:550px;
+       height:600px;   
+       background-color: dimgray;
+       margin: 25px;
+       display:flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+
+      }   
+      .bl-five{
+       width: 40%;
+       height: 250px;   
+       background-color: crimson;
+       margin:25px 18px;
+      }
+      .bl-six{
+        width: 40%;
+        height: 250px;  
+        background-color: darkcyan; 
+        margin:25px 18px;
+       }
+       .bl-seven{
+        width: 40%;
+        height: 250px;
+        background-color: lemonchiffon;
+        margin:25px 18px;
+       }
+       .bl-eight{
+        width: 40%;
+        height: 250px;
+        background-color: mediumspringgreen;
+        margin:25px 18px;
+       }
+       
+        
+   .box-four{
+       width:650px;
+       height:600px;
+       background-color: rgb(166, 192, 166);  
+       margin: 25px;
+      }  
+   .col-fed{
+      background-color: darkkhaki;
+      height: 500px; 
+      background-image:url("img/bg.jpg");
+   }   
+   .block-video{
+    background-color: lightcoral;
+    height: 500px;   
+   }
+   .bottom-about{
+    display: flex;
+    justify-content: space-around;
+   flex-wrap: wrap;
+   align-items: center;   
+   }
+   .about{
+   width:600px;
+   height: 600px;  
+   background-color: greenyellow;
+   margin: 25px;  
+   }
+   .video-about{
+       width:600px;
+       height: 600px;  
+       background-color: rgb(47, 255, 134);
+       margin: 25px;     
+   }
+   .footer{
+   background-color: rgb(255, 249, 170);
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   }
+   .col-footer{
+    margin: 5px; 
+    color:rgb(196, 25, 20); 
+   }
+   .vk, .ins, .fb{
+    display: inline-block;  
+    margin:5px; }
+   
+    .social a{
+   text-decoration: none;
+   color:rgb(196, 25, 20);
     }
+   
+   .menu-bottom ul{
+       display: flex;
+       justify-content:flex-end; 
+       flex-direction: row;  
+       flex-wrap: wrap; 
+       align-content: center;
+       list-style: none; 
+   }
+   .menu-bottom a{
+       text-decoration: none;
+       color:rgb(196, 25, 20);
+       display: block;
+       height: 50px;
+       width: 80px;
+       text-align: center;
+       margin: 5px 10px;
+       }
+@media screen and (max-width:670px){
+ .bl-five{
+width: 40%;    
+}  
+.bl-six{
+width: 40%;    
+ }  
+.bl-seven{
+ width: 40%;    
+ } 
+.bl-eight{
+width: 40%;    
+}     
+.main-menu ul, .menu-bottom ul{
+ justify-content: center;   
+}  
+h2{
+display: none;    
+}                          
+   }
